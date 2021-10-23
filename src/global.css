@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --black: #0B0D17;
+  --purple: #D0D6F9;
+  --white: #FFFFFF;
+
+  font-family: 'Bellefair', serif;
+  font-size: 16px;
+}
