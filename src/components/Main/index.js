@@ -4,7 +4,7 @@ import './style.css'
 
 function Main(){
   return(
-    <main className="page-content">
+    <main className="home-content">
       <div className="page-left">
         <div className="text">
           <p className="text-1">SO, YOU WANT TO TRAVEL TO</p>

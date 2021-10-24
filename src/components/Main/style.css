@@ -1,4 +1,4 @@
-.page-content{
+.home-content{
   height: 90%;
   width: 100%;
   display: flex;
@@ -50,4 +50,69 @@
   border-radius: 50%;
   border: transparent;
   cursor: pointer;
+}
+.explore-button:hover{
+  transition: 0.5s ease;
+  outline-style: solid;
+  outline-width: 70px;
+  outline-color: rgba(0,0,0, 0.6);
+}
+@media(max-width: 1200px){
+  .home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .page-left{
+    width: 80%;
+  }
+  .text{
+    width: 100%;
+  }
+  .text .text-1{
+    font-size: 26px;
+  }
+  .text .text-3{
+    text-align: center;
+    font-size: 22px;
+  }
+  .explore-button{
+    width: 250px;
+    height: 250px;
+  }
+  .page-left{
+    margin-top: 10px;
+  }
+  .page-right{
+    margin-top: 80px;
+  }
+}
+
+@media(max-width: 768px){
+  .text .text-1{
+    font-size: 18px;
+    letter-spacing: normal;
+  }
+  .text .text-2{
+    font-size: 60px;
+  }
+  .text .text-3{
+    font-size: 18px;
+    line-height: normal;
+  }
+  .explore-button{
+    width: 150px;
+    height: 150px;
+    font-size: 22px;
+  }
+  .explore-button:hover{
+    outline-width: 40px;
+  }
+  .page-left{
+    margin-top: 10px;
+  }
+  .page-right{
+    margin-top: 50px;
+  }
 }
