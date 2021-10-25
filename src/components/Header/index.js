@@ -32,8 +32,8 @@ function Header(){
           <img className="close-image " src={Close} onClick={toggleMenu} alt=""/> 
         </div>
         <div className="nav-bar ">
-          <Link href='#' link='HOME'></Link>
-          <Link href='/destination' link='DESTINATION'></Link>
+          <Link href='/' link='HOME'></Link>
+          <Link href='/destination/moon' link='DESTINATION'></Link>
           <Link href='#' link='CREW'></Link>
           <Link href='#' link='TECHNOLOGY'></Link>
         </div>

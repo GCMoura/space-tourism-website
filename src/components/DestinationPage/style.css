@@ -67,3 +67,75 @@
   font-size: 28px;
   margin-top: 10px;
 }
+@media(max-width: 1200px){
+  .destination-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .planet-image{
+    width: 80%;
+  }
+  .planet-image img{
+    width: 250px;
+    margin-top: 50px;
+  }
+  .destination-title{
+    font-size: 24px;
+    align-self: flex-start;
+  }
+  .destination-name{
+    font-size: 70px;
+  }
+  .destination-text{
+    font-size: 20px;
+    line-height: normal;
+  }
+}
+@media(max-width: 768px){
+  .destination-page{
+    height: 90%;
+  }
+  .destination-title{
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+  .planet-information{
+    width: 100%;
+  }
+  .planet-image img{
+    width: 150px;
+    margin-top: 20px;
+  }
+  .planet-links a{
+    font-size: 14px;
+    margin: 0px 10px;
+  }
+  .planet-name {
+    width: 100vw;
+  }
+  .destination-name{
+    font-size: 50px;
+  }
+  .destination-text{
+    width: 80%;
+    font-size: 16px;
+    line-height: normal;
+    margin: auto;
+  }
+  .planet-data{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .planet-data-title{
+    font-size: 12px;
+  }
+  .planet-data-number{
+    color: var(--white);
+    font-size: 22px;
+    margin-top: 5px;
+  }
+}
