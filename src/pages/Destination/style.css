@@ -1,20 +1,62 @@
-.page-content{
+.destination-content{
   width: 100%;
   height: 100vh;
-
   background-image: url('../../assets/destination/background-destination-desktop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+.destination-page{
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+.destination-left-side{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.destination-title{
+  color: var(--white);
+  letter-spacing: 4.75px;
+  font-size: 28px;
+}
+#moon{
+  display: block;
+}
+#europa{
+  display: none;
+}
+#mars{
+  display: none;
+}
+#titan{
+  display: none;
+}
+.destination-right-side{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.planet-links{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
 
 @media(max-width: 1200px){
-  .main-content{
+  .destination-content{
     background-image: url('../../assets/destination/background-destination-tablet.jpg');
   }
 }
 
 @media(max-width: 768px){
-  .main-content{
+  .destination-content{
     background-image: url('../../assets/destination/background-destination-mobile.jpg');
   }
 }

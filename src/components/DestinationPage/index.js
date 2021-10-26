@@ -5,11 +5,8 @@ import './style.css'
 
 function DestinationPage({ image, planet, text, avg, time }){
   return (
-    <main className="destination-page">
-      <div className="planet-image">
-        <div className="destination-title">PICK YOUR DESTINATION</div>
-        <img src={image} alt=""/>
-      </div>
+    
+      
       <div className="planet-information">
         <div className="planet-links"> 
           <Link href='/destination/moon' link='MOON'></Link>
@@ -32,7 +29,7 @@ function DestinationPage({ image, planet, text, avg, time }){
           </div>
         </div>
       </div>
-    </main>
+
   )
 }
 

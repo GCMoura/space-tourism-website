@@ -1,28 +1,5 @@
-.destination-page{
-  height: 90vh;
-  width: 100%;
-  display: flex;
-}
-.planet-image{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.destination-title{
-  color: var(--white);
-  letter-spacing: 4.75px;
-  font-size: 28px;
-}
-.planet-information{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
-}
+
+
 .planet-links{
   width: 70%;
   display: flex;
