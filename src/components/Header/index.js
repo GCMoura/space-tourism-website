@@ -34,7 +34,7 @@ function Header(){
         <div className="nav-bar ">
           <Link href='/' link='HOME'></Link>
           <Link href='/destination/moon' link='DESTINATION'></Link>
-          <Link href='#' link='CREW'></Link>
+          <Link href='/crew/douglas' link='CREW'></Link>
           <Link href='#' link='TECHNOLOGY'></Link>
         </div>
       </div>
