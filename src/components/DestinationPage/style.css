@@ -1,24 +1,4 @@
 
-
-.planet-links{
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 50px;
-}
-.planet-links a{
-  color: var(--purple);
-}
-.planet-name {
-  width: 70%;
-  color: var(--white);
-}
-.destination-name{
-  font-size: 100px;
-  text-align: center;
-  margin: 20px 0px;
-}
 .destination-text{
   font-size: 24px;
   line-height: 40px;

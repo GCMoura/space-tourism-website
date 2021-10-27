@@ -8,16 +8,8 @@ function DestinationPage({ image, planet, text, avg, time }){
     
       
       <div className="planet-information">
-        <div className="planet-links"> 
-          <Link href='/destination/moon' link='MOON'></Link>
-          <Link href='/destination/mars' link='MARS'></Link>
-          <Link href='/destination/europa' link='EUROPA'></Link>
-          <Link href='/destination/titan' link='TITAN'></Link>
-        </div>
-        <div className="planet-name">
-          <p className="destination-name">{planet}</p>
-          <p className="destination-text">{text}</p>
-        </div>
+        
+       
         <div className="planet-data">
           <div className='planet-avg'>
             <p className="planet-data-title">AVG. DISTANCE</p>
