@@ -22,17 +22,17 @@
   letter-spacing: 4.75px;
   font-size: 28px;
 }
-#moon, #name-moon, #text-moon{
+#moon, #name-moon, #text-moon, #avg-moon, #time-moon{
   display: block;
 }
 
-#europa, #name-europa, #text-europa{
+#europa, #name-europa, #text-europa, #avg-europa, #time-europa{
   display: none;
 }
-#mars, #name-mars, #text-mars{
+#mars, #name-mars, #text-mars, #avg-mars, #time-mars{
   display: none;
 }
-#titan, #name-titan, #text-titan{
+#titan, #name-titan, #text-titan, #avg-titan, #time-titan{
   display: none;
 }
 .destination-right-side{
@@ -82,15 +82,121 @@
   padding-bottom: 50px;
   color: var(--purple);
 }
+.planet-data{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin-top: 20px;
+}
+.planet-data-title{
+  color: var(--purple);
+  font-size: 18px;
+  letter-spacing: 2.35px;
+}
+.planet-data-number{
+  color: var(--white);
+  font-size: 28px;
+  margin-top: 10px;
+}
+.avg-data, .time-data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 @media(max-width: 1200px){
   .destination-content{
     background-image: url('../../assets/destination/background-destination-tablet.jpg');
+  }
+  .destination-left-side {
+    width: 100%;
+  }
+  .destination-right-side{
+    width: 80%;
+  }
+  .destination-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .planet-image{
+    width: 80%;
+  }
+  .planet-image img{
+    width: 250px; 
+    margin-left: calc(50% - 125px);
+    margin-top: 50px;
+  }
+  .destination-title{
+    font-size: 24px;
+    align-self: center;
+  }
+  .destination{
+    font-size: 70px;
+  }
+  .planet-text{
+    font-size: 20px;
+    line-height: normal;
+  }
+  .planet-button-nav{
+    font-size: 22px;
   }
 }
 
 @media(max-width: 768px){
   .destination-content{
     background-image: url('../../assets/destination/background-destination-mobile.jpg');
+  }
+  .destination-right-side{
+    width: 100%;
+  }
+  .planet-button-nav{
+    font-size: 14px;
+  }
+  .destination{
+    font-size: 50px;
+  }
+  .destination-title{
+    letter-spacing: normal;
+    font-size: 18px;
+  }
+  .planet-image img{
+    width: 150px; 
+    margin-left: calc(50% - 75px);
+    margin-top: 10px;
+  }
+  .planet-text{
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .planet-data{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .avg-data{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .time-data{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  .planet-data-title{
+    font-size: 14px;
+  }
+  .planet-data-number{
+    font-size: 16px;
+    margin-top: 0px;
   }
 }

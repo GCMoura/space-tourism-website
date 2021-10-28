@@ -1,7 +1,7 @@
 a{
   cursor: pointer;
   text-decoration: none;
-  color: var(--white);
+  color: var(--purple);
   height: 100%;
   font-weight: bold;
   display: flex;
@@ -14,6 +14,7 @@ a:hover{
 
 a:active{
   border-bottom: 5px solid rgba(255,255,255, 0.9);
+  color: var(--white);
 }
 
 @media(max-width: 768px){

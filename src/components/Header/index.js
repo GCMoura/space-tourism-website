@@ -26,15 +26,15 @@ function Header(){
         <img src={Logo} alt="Logo"/>
         <div className="header-line"></div>
       </div>
+      <div className="hamburger-menu">
+        <img className="hamburger-image " src={Hamburguer} onClick={toggleMenu} alt=""/>
+        <img className="close-image " src={Close} onClick={toggleMenu} alt=""/> 
+      </div>
       <div className="header-right-content">
-        <div className="hamburger-menu">
-          <img className="hamburger-image " src={Hamburguer} onClick={toggleMenu} alt=""/>
-          <img className="close-image " src={Close} onClick={toggleMenu} alt=""/> 
-        </div>
         <div className="nav-bar ">
           <Link href='/' link='HOME'></Link>
           <Link href='/destination' link='DESTINATION'></Link>
-          <Link href='/crew/douglas' link='CREW'></Link>
+          <Link href='/crew' link='CREW'></Link>
           <Link href='#' link='TECHNOLOGY'></Link>
         </div>
       </div>

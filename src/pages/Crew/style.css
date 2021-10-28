@@ -1,10 +1,87 @@
 .crew-content{
   width: 100%;
   height: 100vh;
-
   background-image: url('../../assets/crew/background-crew-desktop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+.crew-page{
+  display: flex;
+}
+.crew-left-side{
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.crew-title{
+  width: 70%;
+  color: var(--white);
+  letter-spacing: 4.75px;
+  font-size: 28px;
+} 
+.crew-information{
+  width: 70%;
+  color: var(--white);  
+}
+.crew-job{
+  letter-spacing: 4.75px;
+  font-size: 32px;
+  text-align: left;
+  color: var(--purple);
+}
+.crew-name{
+  font-size: 60px;
+  text-align: left;
+  margin: 20px 0px;
+}
+.crew-text{
+  font-size: 24px;
+  line-height: 40px;
+  text-align: justify;
+  color: var(--purple);
+}
+.crew-links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.crew-links button{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: auto 10px;
+  background-color: var(--purple);
+  cursor: pointer;
+}
+.crew-links button:hover{
+  background-color: var(--white);
+}
+.crew-right-side{
+  width: 50%;
+  height: 90vh;
+}
+.position-image{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+#douglas{
+  display: block;
+}
+#mark, #victor, #anousheh{
+  display: none;
+}
+#douglas-image{
+  display: block;
+}
+#mark-image, #victor-image, #anousheh-image{
+  display: none;
 }
 
 @media(max-width: 1200px){
