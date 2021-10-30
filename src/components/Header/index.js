@@ -35,7 +35,7 @@ function Header(){
           <Link href='/' link='HOME'></Link>
           <Link href='/destination' link='DESTINATION'></Link>
           <Link href='/crew' link='CREW'></Link>
-          <Link href='#' link='TECHNOLOGY'></Link>
+          <Link href='/technology' link='TECHNOLOGY'></Link>
         </div>
       </div>
     </header>
