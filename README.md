@@ -8,7 +8,7 @@ This is a Space Tourism website. Based in a challenge of [Frontend Mentor](https
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screnshot](#screnshot)
+    - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -26,7 +26,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - See all the topics of the pages
 
-### Screnshot
+### Screenshot
 
 ![]('./../screenshot/screenshot-1.jpg)
 ![]('./../screenshot/screenshot-2.jpg)
