@@ -29,7 +29,7 @@ Users should be able to:
 ### Screnshot
 
 ![]('./../screenshot/screenshot-1.jpg)
-![]('./../screenshot/Screenshot-2.jpg)
+![]('./../screenshot/screenshot-2.jpg)
 
 ### Links
 
