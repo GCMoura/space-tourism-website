@@ -52,7 +52,7 @@ function Technology(){
     <div className="tech-content">
       <Header />
       <div className="tech-title-page">
-        <span>03</span>
+        <span className="title-span"  >03</span>
         SPACE LAUNCH 101
       </div>
       <main className="tech-page"> 

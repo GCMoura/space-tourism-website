@@ -66,7 +66,7 @@ function Crew(){
       <main className="crew-page">
         <div className="crew-left-side">
             <div className="crew-title">
-              <span>02</span>
+              <span className="title-span">02</span>
               MEET YOUR CREW
             </div>
             <div className="crew-information" id="douglas">

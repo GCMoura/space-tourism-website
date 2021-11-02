@@ -127,7 +127,7 @@ function Destination(){
       <main className="destination-page">
         <div className="destination-left-side"> 
           <div className="destination-title">
-            <span>01</span>
+            <span className="title-span">01</span>
             PICK YOUR DESTINATION
           </div>
           <div className="planet-image" id="moon">
