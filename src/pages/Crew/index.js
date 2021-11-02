@@ -97,22 +97,22 @@ function Crew(){
             </div>
         </div>
         <div className="crew-right-side" id="douglas-image">
-          <div className="position-image">
+          <div className="position-image-crew">
             <img src={Douglas}  alt="" />
           </div>
         </div>
         <div className="crew-right-side" id="mark-image">
-          <div className="position-image">
+          <div className="position-image-crew">
             <img src={Mark}  alt="" />
           </div>
         </div>
         <div className="crew-right-side" id="victor-image">
-          <div className="position-image">
+          <div className="position-image-crew">
             <img src={Victor}  alt="" />
           </div>
         </div>
         <div className="crew-right-side" id="anousheh-image">
-          <div className="position-image">
+          <div className="position-image-crew">
             <img src={Anousheh}  alt="" />
           </div>
         </div>

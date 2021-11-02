@@ -64,7 +64,7 @@
   width: 50%;
   height: 90vh;
 }
-.position-image{
+.position-image-crew  {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -135,7 +135,7 @@
     width: 80%;
     height: 50vh;
   }
-  .position-image img{
+  .position-image-crew   img{
     width: 340px;
   }
 }
@@ -169,7 +169,7 @@
     height: 15px;
   }
 
-  .position-image img{
+  .position-image-crew   img{
     width: 200px;
   }
 }
